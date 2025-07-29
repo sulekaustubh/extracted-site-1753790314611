@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "extracted-site-1753790314611",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
